@@ -1,0 +1,23 @@
+{
+  "name": "api-podcast",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/server.ts",
+  "directories": {
+    "doc": "doc"
+  },
+  "type": "module",
+  "scripts": {
+    "dist": "tsup src",
+    "start:dist": "npm run dist && node dist/server.js",
+    "start:watch": "tsx watch src/server.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "tsup": "^8.3.5",
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.3"
+  }
+}
