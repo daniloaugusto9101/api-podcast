@@ -6,7 +6,6 @@
   "directories": {
     "doc": "doc"
   },
-  "type": "module",
   "scripts": {
     "dist": "tsup src",
     "start:dist": "npm run dist && --env-file=.env node dist/server.js",
